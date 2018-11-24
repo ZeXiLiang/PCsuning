@@ -1,0 +1,2255 @@
+article, aside, details, div, dt, figcaption, footer, form, header, hgroup, html, main, nav, section, summary {
+    display: block;
+}
+base, basefont, datalist, head, meta, script, style, title, noembed, param, template {
+    display: none;
+}
+address, article, aside, blockquote, body, caption, center, col, colgroup, dd, dir, div, dl, dt, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, hr, html, legend, li, listing, main, marquee, menu, nav, noframes, ol, p, plaintext, pre, section, summary, table, tbody, td, tfoot, th, thead, tr, ul, xmp {
+    unicode-bidi: isolate;
+}
+body, button, input, select, textarea {
+    font: 12px/1.5 "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+    -webkit-font-smoothing: antialiased;
+}
+
+body {background: #f2f2f2;}
+html,body, button, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, hr, input, legend, li, ol, p, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+ul, li, p, h3, h5, em, b, i, span, a {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+a {text-decoration: none;}
+a:-webkit-any-link {
+	text-decoration: none;
+}
+.clearfix::after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+ul, li {
+    list-style: none;
+}
+a:hover{color:#F60}
+li {
+    display: list-item;
+    text-align: match-parent;
+}
+a, body { color: #333;}
+
+#_TOP_BANNER_ {font-size: 0;}
+.ng-top-banner {
+    position: relative;
+    z-index: 7691;
+    clear: both;
+    width: 100%;
+    font-size: 0;
+    min-width: 990px;
+}
+.ng-toolbar, .ng-footer {
+    font-family: "Microsoft yahei" !important;
+}
+.ng-toolbar {
+    z-index: 7690;
+    position: relative;
+    width: 100%;
+    min-width: 990px;
+    border-bottom: 1px solid #eee;
+    background: #f5f5f5;
+    *margin-top:-1px;
+}
+ .ng-footer {
+    position: relative;
+     width: 100%;
+     min-width: 990px;
+     border-bottom: 1px solid #eee;
+     background: #f5f5f5;
+     *margin-top:-1px;
+}
+.ng-toolbar, .ng-footer {
+    font-family: "Microsoft yahei" !important;
+}
+.ng-toolbar, .ng-toolbar .ng-bar-node, a.ng-close {
+    line-height: 35px;
+    height: 35px;
+}
+.ng-toolbar .ng-toolbar-con {
+    position: relative;
+    width: 990px;
+    margin: 0 auto;
+    min-width: 990px;
+    
+}
+.wrapper {
+    width: 990px;
+    min-width: 990px;  
+    margin: 0 auto;
+    clear: both;
+}
+.ng-toolbar-left {
+    float: left;
+}
+.ng-toolbar-right {
+    float: right;
+}
+.ng-toolbar .ng-bar-node {
+    z-index: 7692;
+}
+.ng-toolbar .ng-bar-node-backhome {
+    display: none;
+    padding-left: 0;
+    _line-height: 37px;
+}
+.ng-toolbar .ng-bar-node {
+    display: block;
+    position: relative;
+    float: left;
+    padding: 0 10px;
+        padding-left: 10px;
+    overflow: hidden;
+}
+.ng-toolbar a, .ng-footer a {
+    text-decoration: none !important;
+}
+.ng-toolbar a {
+    color: #666;
+}
+.ng-toolbar .ng-bar-node i.ng-backhome {
+    float: left;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 3px;
+    width: 16px;
+    line-height: 31px;
+    *line-height: 31px;
+    _line-height: 31px;
+}
+.ng-iconfont {
+    font-family: ng-iconfont !important;
+}
+.ng-iconfont, em, i {
+    font-style: normal;
+}
+.ng-toolbar .ng-bar-node-backhome span {
+    float: left;
+}
+.ng-toolbar .ng-bar-node span {
+    display: inline-block;
+    cursor: pointer;
+}
+.ng-toolbar .ng-bar-node-box {
+    position: relative;
+    float: left;
+    margin-left: -1px;
+    _top: 1px;
+}
+.ng-toolbar .ng-bar-node-site {
+    width: 65px;
+}
+.ng-toolbar .ng-site-nav-box span {
+    position: relative;
+}
+.ng-toolbar .reg-bar-node .reg-bbb {
+    position: relative;
+    top: 0;
+    margin-left: 10px;
+    color: #F60;
+}
+.ng-toolbar .ng-bar-node-fix {
+    width: 63px;
+}
+.ng-toolbar .ng-d-box {
+    z-index: 7691;
+}
+.ng-toolbar .ng-down-box {
+    width: 81px;
+    padding-bottom: 5px;
+}
+.ng-toolbar .ng-d-box {
+    position: absolute;
+    top: 35px;
+    border: 1px solid #ddd;
+    background: #fff;
+    left: 0;
+}
+.ng-toolbar .ng-d-box a {
+    padding: 0;
+    float: left;
+    _float: none;
+}
+
+.ng-toolbar .ng-d-box a {
+    padding: 0;
+        padding-left: 0px;
+    float: left;
+    _float: none;
+}
+.ng-toolbar .ng-down-box a {
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 10px;
+    width: 71px;
+}
+.ng-toolbar .mysuning-child {
+    width: 162px;
+}
+.ng-toolbar .mysuning-infor {
+    width: 142px;
+    height: 56px;
+    margin: 5px 10px;
+    overflow: hidden;
+}
+.clearfix {
+    zoom: 1;
+}
+
+.mysuning-infor .headimg img {
+    display: block;
+    width: 54px;
+    height: 54px;
+}
+.ng-toolbar .mysuning-detail {
+    float: left;
+    width: 86px;
+    height: 56px;
+}
+
+.mysuning-detail a.login {
+    height: 28px;
+    overflow: hidden;
+}
+ 
+.mysuning-detail .username {
+    display: none;
+    height: 28px;
+    overflow: hidden;
+}
+.ng-toolbar .mysuning-detail a {
+    display: block;
+    margin-left: 20px;
+    line-height: 28px;
+    float: none;
+    padding: 0;
+    padding-left: 0;
+    width: 64px;
+    word-break: break-all;
+}
+.ng-toolbar .mysuning-detail .daka {
+    height: 22px;
+    text-align: center;
+    color: #FFF;
+    text-decoration: none;
+    line-height: 22px;
+    background: #F60;
+    border-radius: 4px;
+}
+
+
+.mysuning-infor a.headimg {
+    float: left;
+    width: 54px;
+    height: 54px;
+    border: 1px solid #f7f7f7;
+    padding: 0;
+}
+.ng-toolbar .ng-bar-node-mini-cart {
+    color: #F60 !important;
+}
+.ng-toolbar .ng-bar-node-mini-cart {
+    font-family: "Microsoft Yahei";
+    text-decoration: none;
+    padding: 0 5px;
+}
+.ng-sn-site-nav {
+    width: 988px;
+    padding: 20px 0;
+    left: 0;
+    left: auto;
+}
+.ng-toolbar dl.sn-site-list {
+    float: left;
+    width: 176px;
+    border-right: 1px solid #eee;
+    padding-left: 20px;
+}
+.ng-toolbar dl.rnb {
+    border-right: 0;
+}
+.ng-toolbar dl.sn-site-list dt {
+    height: 25px;
+    width: 100%;
+    font-size: 14px;
+    font-family: "Microsoft Yahei";
+    line-height: 17px;
+}
+.ng-toolbar dl.sn-site-list dd {
+    width: 100%;
+    overflow: hidden;
+}
+.ng-toolbar dl.sn-site-list dd p {
+    float: left;
+    height: 25px;
+    width: 78px;
+    line-height: 25px;
+}
+.ng-toolbar dl.sn-site-list dd a {
+    position: relative;
+    display: inline-block;
+}
+
+.ng-toolbar .service-center-child {
+    width: 162px;
+    padding-top: 5px;
+    left: auto;
+    right: 0;
+}
+.ng-toolbar .shop-center-child {
+    width: 162px;
+    padding-top: 5px;
+    left: 0;
+    right: auto;
+}
+.ng-nav-bar {
+    z-index: 7670;
+    position: relative;
+    width: 100%;
+    min-width: 990px;
+
+}
+.ng-nav-bar {
+    border: 0;
+    background: #fff;
+}
+.ng-nav-bar,.ng-all-hook {
+    height: 38px;
+    overflow: visible;
+} 
+.index-sort {
+    z-index: 7675;
+    position: absolute;
+   width: 190px;
+   top: 0;
+   left: 50%;
+   margin-left: -495px;
+   font-family: "Microsoft Yahei";
+}
+.index-all-hook {
+  position: absolute;
+  display: block;
+  width: 163px;
+  padding-left: 27px;
+  height: 38px;
+  top: 0;
+  line-height: 38px;
+  background: #f90;
+  color: #fff!important;
+  font-size: 13px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.index-all-hook i {
+   position: absolute;
+   display: block;
+   width: 12px;
+   height: 12px;
+   top: 14px;
+   left: 9px;
+   background: url("https://res.suning.cn/project/cmsWeb/suning/homepage/v6/css/images/index.png?v=2018101801") 0 0;
+}
+.ng-nav-bar .index-sort-list-box {
+    position: absolute;
+    top: 38px;
+    left: 0;
+    width: 190px;
+    height: 482px;
+}
+.ng-nav-bar .index-sort-list-box .nav-cover {
+    position: absolute;
+    width: 190px;
+    height: 482px;
+    top: 0;
+    left: 0;
+    background: #252221;
+}
+.ng-nav-bar .index-sort-list-box .index-list {
+    position: absolute;
+    left: 0;
+    top: 1px;
+    height: 480px;
+    width: 190px;
+    z-index: 7677;
+}
+.ng-nav-bar .index-sort-list-box .index-list li {
+    position: relative;
+    width: 175px;
+    height: 32px;
+    padding: 0 8px 0 10px;
+    line-height: 32px;
+}
+.ng-nav-bar .index-sort-list-box .index-list li a {
+    display: inline-block;
+    vertical-align: middle;
+    color: #FFF;
+    font-size: 13px;
+    text-decoration: none;
+}
+.ng-nav-bar .index-sort-list-box .index-list li em {
+    display: inline-block;
+    vertical-align: middle;
+    height: 12px;
+    width: 1px;
+    opacity: .4;
+    background: #d8d8d8;
+    margin: 0 5px;
+}
+.ng-nav-bar .ng-nav-index {
+    position: absolute;
+    left: 50%;
+    margin-left: -305px;
+    width: 785px;
+    padding-left: 10px;
+    height: 38px;
+    line-height: 38px;
+    overflow: hidden;
+    font-family: "Microsoft Yahei";
+}
+.ng-nav-bar .ng-nav-index {
+    z-index: 7669;
+    width: 785px;
+    height: 38px;
+    line-height: 38px;
+    overflow: hidden;
+}
+.ng-nav-index ul.ng-nav li {
+    float: left;
+    display: block;
+    position: relative;
+    height: 38px;
+    font-weight: bold;
+    padding: 0 12px 0 13px;
+}
+
+.ng-nav-index ul.ng-nav li a {
+    position: relative;
+    float: left;
+    color: #333;
+    font-size: 15px;
+    text-decoration: none;
+}
+.ng-nav-bar .ng-nav-index ul.ng-nav li span {
+    position: absolute;
+    width: 25px;
+    height: 8px;
+    bottom: -8px;
+    left: 50%;
+    margin-left: -12px;
+    background: url("http://res.suning.cn/project/cmsWeb/suning/homepage/v6/css/images/index.png?v=2018101801") -37px 0;
+    transition: all .5s;
+}
+.index-sort-detail {
+    position: absolute;
+    left: 190px;
+    min-height: 480px;
+    width: 0;
+    overflow: hidden;
+    background: #FFF;
+    z-index: 7676;
+    _height: 451px;
+}
+.index-sort-detail .sort-btn {
+    float: left;
+    width: 486px;
+    height: 24px;
+    margin: 10px 0 0 8px;
+    overflow: hidden;
+}
+.index-sort-detail .sort-btn a {
+    float: left;
+    height: 24px;
+    margin-left: 25px;
+    padding: 0 10px;
+    color: #FFF;
+    line-height: 24px;
+    text-align: center;
+    background: #F90;
+    text-decoration: none;
+    font-family: "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+}
+.index-sort-detail .cate-list {
+    width: 580px;
+    margin: 10px 0 0 0;
+    padding-left: 20px;
+    overflow: hidden;
+    float: left;
+}
+.actShow {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 199px;
+    height: 100%;
+    overflow: hidden;
+    background: #f3f3f3;
+}
+.index-sort-detail dl {
+    float: left;
+    height: auto;
+    overflow: hidden;
+    width: 550px;
+}
+.index-sort-detail dt {
+    float: left;
+    width: 84px;
+    height: 20px;
+    line-height: 20px;
+    font-weight: 700;
+    padding-left: 10px;
+    padding-top: 8px;
+}
+.index-sort-detail dt a {
+    display: block;
+    width: 84px;
+    height: 20px;
+    overflow: hidden;
+    text-decoration: none;
+}
+.index-sort-detail dd {
+    float: left;
+    width: 450px;
+    font: 12px/1.5 arial,tahoma,宋体;
+        line-height: 1.5;
+    line-height: 20px;
+    overflow: hidden;
+    border-bottom: 1px solid #eee;
+    margin-top: 8px;
+    padding-bottom: 8px;
+}
+
+.index-sort-detail dd a.orange {
+    color: #f60;
+}
+.index-sort-detail dd a {
+    color: #666;
+    margin-right: 15px;
+    display: inline-block;
+    font-family: "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+    text-decoration: none;
+}
+.actShow .brandList {
+    width: 182px;
+    margin: 10px 0 0 8px;
+}
+.clearfix {
+    zoom: 1;
+}
+.index-sort-detail-border {
+	border-width: 1px 1px 1px 1px;
+	border-style: solid;
+	border-color: #382526;
+}
+
+.actShow .brandList a {
+    float: left;
+    width: 90px;
+    height: 38px;
+    margin: 0 1px 1px 0;
+    padding-top: 7px;
+    background: #FFF;
+}
+.actShow .brandList img {
+    width: 80px;
+    height: 30px;
+    margin: 0 auto;
+}
+.actShow .actList {
+    width: 180px;
+    margin: 11px 0 0 8px;
+}
+.actShow .actList img {
+    float: left;
+    width: 180px;
+    height: 100px;
+    margin-bottom: 5px;
+    overflow: hidden;
+}
+.index-sort-list-box .index-list li.current {
+	background:#FFF;
+}
+.index-sort-list-box .index-list li.current a {
+	color:#333;
+}
+.index-sort-list-box .index-list li.current a:hover {
+	color:#f60;
+}
+.root1200 .index-sort-detail .sort-btn {
+    width: 686px;
+}
+.root1200 .index-sort-detail .cate-list {
+    width: 780px;
+}
+.root1200 .index-sort-detail dl {
+    width: 750px;
+}
+.root1200 .index-sort-detail dd {
+    width: 650px;
+}
+.ng-nav-index ul.ng-nav li:hover a{color:#F60}
+.ng-nav-index ul.ng-nav li:hover span{bottom:0}
+.nfirstScreen {
+    position: relative;
+    width: 100%;
+    height: 482px;
+    min-width: 990px;
+    overflow: hidden;
+}
+.nfirstScreen .fw-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 482px;
+    overflow: hidden;
+}
+.clear {
+    overflow: hidden;
+    font-size: 0;
+}
+.clear, .clearfix::after {
+    display: block;
+    height: 0;
+    clear: both;
+}
+.nfirstScreen .fw-bg img {
+    position: absolute;
+    width: 545px;
+    height: 482px;
+    left: 50%;
+    top: 0;
+}
+.nfirstScreen .fw-bg img.fw-bg-left {
+    margin-left: -950px;
+}
+.nfirstScreen .fw-bg img.fw-bg-right {
+    margin-left: 425px;
+}
+.nfirstScreen .banner-wrapper {
+    position: relative;
+    width: 100%;
+    height: 482px;
+    overflow: hidden;
+}
+.nfirstScreen .banner-wrapper .banner {
+
+    position: absolute;
+    width: 100%;
+    height: 482px;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+.nfirstScreen .banner-wrapper .banner ul {
+    position: absolute;
+    width: 100%;
+    height: 482px;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+.nfirstScreen .banner-wrapper .banner li {
+   
+    position: absolute;
+    width: 100%;
+    height: 482px;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.nfirstScreen .banner-wrapper .banner li a {
+    position: absolute;
+    display: block;
+}
+.nfirstScreen .banner-wrapper .banner li a.big img {
+    width: 830px;
+    height: 482px;
+}
+.nfirstScreen .banner-wrapper .banner li img {
+    display: block;
+}
+
+.nfirstScreen .banner-wrapper a.btn {
+    position: absolute;
+    display: none;
+    width: 30px;
+    height: 64px;
+    top: 180px;
+    background: url("https://res.suning.cn/project/cmsWeb/suning/homepage/v6/css/images/index.png?v=2018101801");
+   
+}
+.nfirstScreen .banner-wrapper a.btn-right {
+    right: 50%;
+    margin-right: -325px;
+    background-position: -120px -145px;
+}
+.nfirstScreen .banner-wrapper .banner-nav-wrapper {
+    position: absolute;
+    top: 323px;
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    font-size: 0;
+}
+.nfirstScreen .banner-wrapper a.btn-left {
+    left: 50%;
+    margin-left: -305px;
+    background-position: -82px -145px;
+}
+.nfirstScreen .banner-wrapper .banner-nav-wrapper .banner-nav {
+    position: relative;
+    display: inline-block;
+    opacity: .8;
+    padding: 0 8px 0 0;
+    height: 20px;
+    margin-left: 100px;
+}
+.nfirstScreen .banner-wrapper .banner-nav-wrapper .banner-nav a {
+    position: relative;
+    display: inline-block;
+    margin-left: 8px;
+    width: 20px;
+    height: 20px;
+    background: url("https://res.suning.cn/project/cmsWeb/suning/homepage/v6/css/images/index.png?v=2018101801") -26px -100px;
+    color: #FFF;
+}
+.nfirstScreen .banner-wrapper .banner-nav-wrapper .banner-nav a.current {
+    background-position: 0 -100px;
+}
+
+.root1200 .nfirstScreen .banner-wrapper a.btn-left {
+    margin-left: -405px;
+}
+.root1200 .nfirstScreen .banner-wrapper a.btn-right {
+    margin-right: -425px;
+}
+
+.root1200 .nfirstScreen {
+    min-width: 1190px;
+}
+.root1200 .ng-nav-bar {
+	min-width: 1190px;
+}
+.root1200 .ng-nav-index {
+    margin-left: -405px;
+    width: 785px;
+}
+.root1200 .ng-nav-bar .ng-nav-index {
+    width: 785px;
+}
+.root1200 .nfirstScreen .first-right {
+    margin-left: 425px;
+}
+.root1200 .ms-floor {
+    min-width: 1190px;
+}
+.root1200 .ms-floor .content {
+    width: 1190px;
+    min-width: 1190px;
+}
+.root1200 .ms-floor .tab-content {
+    width: 1000px;
+}
+.root1200 .ms-floor .tab-content .con-list {
+    width: 1000px;
+}
+.nfirstScreen .banner-wrapper a.btn-left:hover {
+ background-position:-161px -145px;
+}
+.nfirstScreen .banner-wrapper a.btn-right:hover {
+ background-position:-198px -145px;
+}
+.nfirstScreen .banner-wrapper .banner li a.big {
+    top: 0;
+    left: 50%;
+    margin-left: -355px;
+    width: 830px;
+    height: 482px;
+}
+.root1200 .nfirstScreen .banner-wrapper .banner li a.big {
+ margin-left:-405px;
+}
+.root1200 .index-sort {
+    margin-left: -595px;
+}
+.index-sort {
+    z-index: 7675;
+}
+
+.nfirstScreen .first-right {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: 325px;
+    width: 170px;
+    height: 482px;
+    background: #FFF;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.nfirstScreen .first-right .user-infor {
+    position: relative;
+    width: 170px;
+    height: 155px;
+    padding: 11px 0 2px;
+    border-bottom: 1px solid #f2f2f2;
+}
+.nfirstScreen .first-right .toutiao {
+    width: 150px;
+    height: 145px;
+    overflow: hidden;
+    margin: 11px 10px 11px;
+    font: 12px/20px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+}
+.nfirstScreen .first-right .kuaijie {
+    width: 170px;
+    height: 145px;
+    overflow: hidden;
+    border-top: 1px solid #f2f2f2;
+}
+.nfirstScreen .first-right .user-img {
+    position: relative;
+    width: 52px;
+    height: 52px;
+    margin: 0 auto;
+    background: url(https://res.suning.cn/project/cmsWeb/suning/homepage/v6/css/images/index.png?v=2018101801) -93px -23px;
+}
+.nfirstScreen .first-right .user-infor .infor {
+    width: 150px;
+    height: 24px;
+    margin: 8px auto 0;
+    text-align: center;
+    font: 12px/24px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.nfirstScreen .first-right .user-infor .btn {
+    width: 100%;
+    margin: 6px auto 15px;
+    height: 22px;
+    *height: 24px;
+    overflow: hidden;
+    text-align: center;
+}
+.nfirstScreen .first-right .user-infor .enter {
+    height: 18px;
+}
+.nfirstScreen .first-right .user-infor .btn a {
+    display: inline-block;
+    width: 70px;
+    height: 22px;
+    line-height: 22px;
+    vertical-align: middle;
+    margin: 0 3px;
+}
+.nfirstScreen .first-right .user-infor .btn a.register {
+    width: 68px;
+    height: 20px;
+    border: 1px solid #F90;
+    color: #ffa114;
+    line-height: 20px;
+}
+.nfirstScreen .first-right .user-infor .btn a.superhy {
+    background: url(https://res.suning.cn/project/cmsWeb/suning/homepage/v6/css/images/index.png?v=2018101801) -295px -251px;
+}
+.nfirstScreen .first-right .user-infor .enter a {
+    float: left;
+    width: 70px;
+    height: 18px;
+    margin: 0 11px 0 9px;
+    background: #ffe4db;
+    border-radius: 9px;
+    background: url(https://res.suning.cn/project/cmsWeb/suning/homepage/v6/css/images/index.png?v=2018101801) -670px -256px;
+}
+.nfirstScreen .first-right .user-infor .enter a.quan {
+    margin: 0;
+    background: url(https://res.suning.cn/project/cmsWeb/suning/homepage/v6/css/images/index.png?v=2018101801) -670px -288px;
+}
+.nfirstScreen .first-right .toutiao {
+    width: 150px;
+    height: 145px;
+    overflow: hidden;
+    margin: 11px 10px 11px;
+    font: 12px/20px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+}
+.nfirstScreen .first-right .toutiao ul {
+    width: 150px;
+}
+.clearfix {
+    zoom: 1;
+}
+.nfirstScreen .first-right .toutiao ul li {
+    width: 150px;
+    height: 48px;
+}
+.nfirstScreen .first-right .toutiao p {
+    width: 150px;
+    height: 40px;
+    overflow: hidden;
+}
+.nfirstScreen .first-right .toutiao a {
+    text-decoration: none;
+}
+.nfirstScreen .first-right .toutiao i {
+    margin-right: 5px;
+    color: #F60;
+}
+.ms-floor {
+    position: relative;
+    width: 100%;
+    margin: 0;
+    min-width: 990px;
+    overflow: hidden;
+}
+.ms-floor .content-wrapper {
+    position: relative;
+    width: 1920px;
+    height: 307px;
+    padding-top: 20px;
+    left: 50%;
+    margin-left: -960px;
+    top: 0;
+}
+.ms-floor .content {
+    position: relative;
+    width: 990px;
+    min-width: 990px;
+    height: 307px;
+    margin: 0 auto;
+    background: #FFF;
+}
+.ms-floor .ms-title {
+    width: 100%;
+    height: 46px;
+    border-bottom: 1px solid #e7e7e7;
+}
+.ms-floor .ms-title img {
+    float: left;
+    width: 83px;
+    height: 20px;
+    margin: 14px 0 0 20px;
+}
+.ms-floor .ms-title .cc-infor {
+    float: left;
+    height: 16px;
+    margin: 15px 0 0 20px;
+    line-height: 16px;
+}
+.ms-floor .ms-title .time {
+    float: left;
+    line-height: 20px;
+    height: 20px;
+    overflow: hidden;
+    margin: 14px 0 0 8px;
+}
+.ms-floor .ms-title .tab-list {
+    float: left;
+    height: 46px;
+    margin-left: 62px;
+    border-bottom: 1px solid #e7e7e7;
+}
+.ms-floor .ms-title .tab-list .t-list {
+    float: left;
+}
+.ms-floor .ms-title .tab-list li.cur {
+    background: url("https://res.suning.cn/project/cmsWeb/suning/homepage/v6/css/images/index.png?v=2018101801") -561px 0;
+    color: #FFF;
+}
+.ms-floor .ms-title .tab-list li {
+    float: left;
+    width: 133px;
+    height: 24px;
+    margin: 12px 40px 0 0;
+    line-height: 24px;
+    text-align: center;
+    font-size: 14px;
+    cursor: default;
+}
+.ms-floor .ms-title .right-more {
+    position: relative;
+    float: right;
+    margin: 13px 10px 0 0;
+    font-size: 14px;
+    color: #999;
+    line-height: 19px;
+    padding-right: 18px;
+}
+.ms-floor .ms-title .right-more i {
+    position: absolute;
+    right: 0;
+    top: 2px;
+    width: 15px;
+    height: 15px;
+    background: url("https://res.suning.cn/project/cmsWeb/suning/homepage/v6/css/images/index.png?v=2018101801") -561px -36px;
+}
+.ms-floor .tab-content {
+    float: left;
+    width: 800px;
+    height: 260px;
+    overflow: hidden;
+}
+.ms-floor .tab-content .con-list {
+    display: none;
+    float: left;
+    position: relative;
+    width: 800px;
+    height: 240px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+.ms-floor .tab-content .con-list-cur {
+    display: block;
+}
+.ms-floor .tab-content .con-list ul {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 4000px;
+    height: 240px;
+}
+.ms-floor .tab-content .con-list ul li {
+    float: left;
+    width: 199px;
+    height: 240px;
+    border-right: 1px solid #e7e7e7;
+}
+.ms-floor .tab-content .con-list ul li img {
+    display: block;
+    width: 159px;
+    height: 159px;
+    margin: 10px 20px;
+}
+.ms-floor .tab-content .con-list ul li p.title {
+    width: 156px;
+    height: 16px;
+    margin: 0 0 0 20px;
+    line-height: 16px;
+    overflow: hidden;
+    word-break: break-all;
+}
+.tab-content .con-list ul li a .ms-price .price {
+    line-height: 21px;
+    color: #F60;
+    font-size: 16px;
+    font-weight: bold;
+}
+.ms-floor .tab-content .con-list ul .ms-price .refprice {
+    line-height: 16px;
+    color: #999;
+    margin-left: 6px;
+    text-decoration: line-through;
+}
+.ms-floor .tab-content .con-list ul li p.pretext {
+    margin: 0 0 0 20px;
+    color: #999;
+}
+
+.ms-floor .tab-content .con-list ul .ms-price {
+    height: 21px;
+    margin: 6px 0 0 20px;
+}
+
+.ms-floor .tab-content .con-list ul p.line {
+    float: left;
+    margin: 8px 0 0 20px;
+    width: 100px;
+    height: 6px;
+    background: url("https://res.suning.cn/project/cmsWeb/suning/homepage/v6/css/images/index.png?v=2018101801") -561px -74px;
+}
+.tab-content .con-list ul .precent {
+    float: left;
+    margin-left: 10px;
+    color: #999;
+    font-size: 10px;
+}
+
+.tab-content .con-list ul .ms-price .refprice {
+    line-height: 16px;
+    color: #999;
+    margin-left: 6px;
+    text-decoration: line-through;
+}
+.ms-floor .tab-content .con-list ul p.line span {
+    float: left;
+    height: 6px;
+    border-radius: 0 3px 3px 0;
+    background: url("https://res.suning.cn/project/cmsWeb/suning/homepage/v6/css/images/index.png?v=2018101801") -561px -94px;
+}
+.ms-floor .tab-content .pointer {
+    position: absolute;
+    width: 24px;
+    height: 60px;
+    top: 70px;
+    background: url("https://res.suning.cn/project/cmsWeb/suning/homepage/v6/css/images/index.png?v=2018101801");
+        
+}
+.ms-floor .tab-content .left-pointer {
+    left: 0;
+    background-position: -561px -117px;
+}
+.ms-floor .tab-content .right-pointer {
+    right: 0;
+    background-position: -599px -117px;
+}
+.second-wrapper {
+    width: 990px;
+    min-width: 990px;
+    margin: 20px auto;
+}
+.root1200 .second-wrapper {
+    width: 1190px;
+    min-width: 1190px;
+}
+.clearfix {
+    zoom: 1;
+}
+.second-wrapper .module {
+    float: left;
+    width: 390px;
+    height: 427px;
+    margin-left: 10px;
+    background: #FFF;
+}
+.secondtj-wrapper .hh-module {
+    width: 190px;
+    margin: 0;
+}
+.root1200 .secondtj-wrapper .hh-module {
+    width: 390px;
+}
+.secondtj-wrapper .hh-module .title {
+    background: #3b8c94;
+}
+.second-wrapper .title {
+    position: relative;
+    width: 100%;
+    height: 45px;
+    color: #FFF;
+}
+.secondtj-wrapper .hh-module .content {
+    width: 184px;
+    height: 362px;
+    margin: 10px auto 0;
+    overflow: hidden;
+}
+.second-wrapper .content {
+    position: relative;
+}
+.second-wrapper .title h5 {
+    float: left;
+    padding-left: 15px;
+    font: bold 18px/45px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+}
+.second-wrapper .title a {
+    float: right;
+    margin: 15px 10px 0 0;
+    color: #FFF;
+    font: 12px/16px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+    cursor: pointer;
+    text-decoration: none;
+}
+.second-wrapper .title a span {
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: none;
+}
+.second-wrapper .title a i {
+    display: inline-block;
+    vertical-align: middle;
+    width: 6px;
+    height: 9px;
+    margin-left: 8px;
+    background: url("https://res.suning.cn/project/cmsWeb/suning/homepage/v6/css/images/index.png?v=2018101801") -73px -37px;
+}
+.secondtj-wrapper .hh-module .content ul {
+    width: 370px;
+    height: 363px;
+}
+.secondtj-wrapper .hh-module .content ul li {
+    position: relative;
+    float: left;
+    width: 184px;
+    height: 120px;
+    border-width: 0 1px 1px 0;
+    border-style: solid;
+    border-color: #e7e7e7;
+}
+.secondtj-wrapper .hh-module .content ul li a {
+    float: left;
+    width: 184px;
+    height: 120px;
+    cursor: pointer;
+}
+.secondtj-wrapper .hh-module .content ul li p.name {
+    width: 72px;
+    height: 40px;
+    overflow: hidden;
+    margin: 14px 0 0 15px;
+    color: #333;
+    font: 14px/20px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+    word-break: break-all;
+}
+.secondtj-wrapper .hh-module .content ul li p.desc {
+    width: 72px;
+    height: 16px;
+    overflow: hidden;
+    color: #999;
+    margin: 10px 0 0 15px;
+    font: 12px/16px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+}
+.secondtj-wrapper .hh-module .content ul li img {
+    position: absolute;
+    display: block;
+    width: 90px;
+    height: 90px;
+    bottom: 3px;
+    right: 3px;
+}
+.secondtj-wrapper .hh-module .content ul li p.desc i {
+    color: #3b8c94;
+}
+.secondtj-wrapper .tj-module .title {
+    background: #e66a07;
+}
+.second-wrapper .title h5 {
+    float: left;
+    padding-left: 15px;
+    font: bold 18px/45px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+}
+.second-wrapper .title a {
+    float: right;
+    margin: 15px 10px 0 0;
+    color: #FFF;
+    font: 12px/16px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+    cursor: pointer;
+    text-decoration: none;
+}
+.secondtj-wrapper .phb-module .title {
+    background: #b62323;
+}
+.secondtj-wrapper .tj-module .content {
+    width: 369px;
+    height: 361px;
+    margin: 10px auto 0;
+    overflow: hidden;
+}
+.secondtj-wrapper .tj-module .content ul {
+    width: 370px;
+    height: 363px;
+}
+.secondtj-wrapper .tj-module .content ul li {
+    position: relative;
+    float: left;
+    width: 184px;
+    height: 180px;
+    border-width: 0 1px 1px 0;
+    border-style: solid;
+    border-color: #e7e7e7;
+}
+.secondtj-wrapper .tj-module .content ul li a {
+    float: left;
+    width: 184px;
+    height: 180px;
+    cursor: pointer;
+}
+.secondtj-wrapper .tj-module .content ul li p.name {
+    float: left;
+    padding: 0 8px;
+    height: 20px;
+    overflow: hidden;
+    margin: 14px 0 0 8px;
+    color: #333;
+    background: #e66a07;
+    border-radius: 20px;
+    color: #FFF;
+    font: 14px/20px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+    word-break: break-all;
+}
+.clear {
+    overflow: hidden;
+    font-size: 0;
+}
+.secondtj-wrapper .tj-module .content ul li p.desc {
+    float: left;
+    width: 144px;
+    height: 16px;
+    overflow: hidden;
+    color: #999;
+    margin: 6px 0 0 16px;
+    font: 12px/16px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+}
+.secondtj-wrapper .tj-module .content ul li img {
+    float: left;
+    width: 90px;
+    height: 90px;
+    bottom: 3px;
+    right: 3px;
+    margin-top: 14px;
+}
+.secondtj-wrapper .tj-module .content ul li img.first-img {
+    margin-left: 2px;
+}
+.secondtj-wrapper .phb-module .content {
+    position: relative;
+    width: 369px;
+    padding: 0 10px 0 11px;
+}
+.secondtj-wrapper .phb-module .com-list {
+    position: relative;
+    width: 369px;
+    height: 360px;
+    overflow: hidden;
+    margin: 10px 0 0 0;
+}
+.secondtj-wrapper .phb-module .commodity-wrapper {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 360px;
+    width: 1200px;
+}
+.secondtj-wrapper .phb-module .commodity-wrapper .com-ul-wrapper {
+    float: left;
+    width: 369px;
+    height: 360px;
+}
+.secondtj-wrapper .phb-module .commodity-wrapper .ul-wp {
+    position: relative;
+    float: left;
+    width: 369px;
+    height: 180px;
+}
+.secondtj-wrapper .phb-module .commodity-wrapper p.cate-title {
+    position: absolute;
+    left: 0;
+    top: 14px;
+    color: #FFF;
+    background: #c72c2c;
+    border-radius: 12px;
+    padding: 0 5px;
+    height: 22px;
+    font: 14px/22px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+}
+.secondtj-wrapper .phb-module .com-list ul {
+    position: relative;
+    width: 369px;
+    height: 166px;
+    padding-top: 14px;
+    border-bottom: 1px solid #e7e7e7;
+}
+.secondtj-wrapper .phb-module .com-list li {
+    position: relative;
+    float: left;
+    width: 123px;
+    height: 166px;
+}
+.secondtj-wrapper .phb-module .com-list a {
+    float: left;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.secondtj-wrapper .phb-module .com-list a img {
+    display: block;
+    width: 80px;
+    height: 80px;
+    margin: 28px auto 0;
+}
+.secondtj-wrapper .phb-module .com-list a p.name {
+    width: 100px;
+    height: 28px;
+    overflow: hidden;
+    color: #333;
+    margin-left: 11px;
+    font: 12px/14px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+}
+.secondtj-wrapper .phb-module .com-list a p.price {
+    margin: 1px 0 0 11px;
+    color: #b62323;
+    font: 14px/22px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+}
+.secondtj-wrapper .phb-module .com-list a p.price i, .secondtj-wrapper .phb-module .com-list a p.price em {
+    font-size: 12px;
+}
+
+.secondtj-wrapper .phb-module .com-list a span {
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    top: 28px;
+    right: 22px;
+    background: url("https://res.suning.cn/project/cmsWeb/suning/homepage/v6/css/images/index.png?v=2018101801");
+     
+    color: #FFF;
+    text-align: center;
+    font: 12px/23px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+}
+.secondtj-wrapper .phb-module .com-list a span.paihang1 {
+    background-position: -3px -241px;
+}
+.secondtj-wrapper .phb-module .com-list a span.paihang2 {
+    background-position: -32px -241px;
+}
+.secondtj-wrapper .phb-module .com-list a span.paihang3 {
+    background-position: -61px -241px;
+}
+.root1200 .secondtj-wrapper .hh-module .content {
+    width: 369px;
+}
+.floor {
+    width: 990px;
+    margin: 20px auto 0;
+}
+.floorTwo {
+    height: 565px;
+    border: 0;
+    background: #f2f2f2;
+}
+.floorTwo .floor-l {
+    float: left;
+    width: 590px;
+    height: 565px;
+    background: #FFF;
+    border-top: 2px solid #FFF;
+    
+    box-shadow: 0 0 8px #eee;
+}
+.floorTwo .right-floor {
+    margin-left: 10px;
+    width: 390px;
+}
+.root1200 .floor {
+    width: 1190px;
+}
+.root1200 .floorTwo .right-floor {
+    margin-left: 10px;
+    width: 590px;
+}
+.root1200 .floorTwo .right-floor .keyword {
+    width: auto;
+}
+.root1200 .floorTwo .brand-logo ul li {
+    margin: 9px 9px 0 9px;
+}
+.root1200 .floorTwo .right-floor ul.img-list {
+    width: 400px;
+}
+.com-floor .title {
+    width: 100%;
+    height: 45px;
+}
+.com-floor .title-name {
+    float: left;
+    width: 190px;
+    height: 45px;
+}
+.com-floor .keyword {
+    float: right;
+    margin: 14px 18px 0 0;
+}
+.com-floor .title-name p.name {
+    margin-left: 15px;
+    font: bold 18px/40px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+}
+.com-floor .title-name p {
+    float: left;
+    color: #FFF;
+}
+.com-floor .code-wrapper {
+    position: relative;
+    float: left;
+    width: 24px;
+    height: 24px;
+    margin: 10px 0 0 10px;
+    background: url("https://res.suning.cn/project/cmsWeb/suning/homepage/v6/css/images/index.png?v=2018101801") -232px -209px;
+    z-index: 1;
+}
+.com-floor .code-wrapper .code {
+    display: none;
+    position: absolute;
+    top: 35px;
+    left: -49px;
+    width: 120px;
+    height: 130px;
+    background: #FFF;
+    border: 1px solid #e2e2e2;
+    border-radius: 8px;
+}
+.com-floor .code-wrapper .code span {
+    position: absolute;
+    width: 10px;
+    height: 8px;
+    top: -7px;
+    left: 56px;
+    background: url("http://res.suning.cn/project/cmsWeb/suning/homepage/v6/css/images/index.png?v=2018101801") -267px -210px;
+}
+.com-floor .code-wrapper .code img {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: 6px auto 0;
+}
+.com-floor .code-wrapper .code p {
+    float: none;
+    text-align: center;
+    font: 14px/24px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+    color: #333;
+}
+.com-floor .keyword a {
+    float: right;
+    margin-left: 20px;
+    font: 14px/20px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+    color: #666;
+    text-decoration: none;
+}
+.floorTwo .right-floor {
+    margin-left: 10px;
+    width: 390px;
+}
+.floorTwo .right-floor .keyword {
+    width: 150px;
+    height: 20px;
+    overflow: hidden;
+}
+
+.com-floor .content {
+    width: 100%;
+    height: 360px;
+}
+.com-floor .left-img {
+    float: left;
+    position: relative;
+    width: 190px;
+    height: 360px;
+    cursor: pointer;
+}
+.com-floor .left-img img {
+    display: block;
+    width: 190px;
+    height: 360px;
+}
+.com-floor .left-img {
+    float: left;
+    position: relative;
+    width: 190px;
+    height: 360px;
+    cursor: pointer;
+}
+.com-floor .left-img img {
+    display: block;
+    width: 190px;
+    height: 360px;
+}
+.lazy-loading, img.err-product {
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAAB4CAYAAAA5ZDbSAAAHs0lEQVR4nO3au47buhYGYL3/G0y5gRSpEyBJlyZAmjQBkiIFqasl0bJky5KsO/9TDMgj3yfZt5ns/wOIILYsy1rkIrk0jkNERERERERERERERERERERERERERERERERERERERERERERERERERERERPR3GccRaZoijmM0TYN/+3roL9R1HTzPgxDCtrIsGeTfweFwgOu6R8E1Lc/zXwryPM+o6/rss9devwQAqqqC1vru8dM04XA4XG3jOF48R9/3aNv26Dv2+z2maXqZnbvrOvi+fzGYT2mu62K321398ZvNBmmaIggCCCEQxzHSNLXt9PWqqrC8tizL7LGr1QpCCERRZF/Lsgxt2x59f57nEEIgCAJEUXTWzHcuO6vWGmmaQggBKSV830fXdXAcxxFCwPM8BEGAMAyx2+0A4GUEPAzDXw7usl0bEWVZYrvdPrmZYDVNAyEEkiRBURQXjy2KwgbFdAzzuXtrhtPjttstPM/DMAzQWkMphTAM4TiOU9c16rpGVVXYbDaQUmK73b6MAF9LxT/bTkfRNfv9/kk3Z3mD71mtVkiSBI7jOEVRPOl653lGEAQoigKO4zgmGzRNgzzPcTgcIISwwR6GAWVZoixLFEUBz/MYYMd5DOgyJbuuC9/3oZTCZrOxafBUVVVH6fqWuq6x3+/taBNCoK5rDMNwsY3jiL7vIaW035EkCbIsw3a7RRiGaNvWdgTz+5RSUErZ4P/qPf9H/d0BNiMiz3MopSCEQJqmyPMcSZJACGHn8KZpMAwDHOcxtWdZ9uRmzgEAaZpCSokkSY46l2lJkkBKiTRN7Vz6MwE27/1TMfpl+/3+LwmuCdqlhcc8z8jz3KY4IcTRirQoCkgpMU3TUcqsqsp2jNO2Xq8hhIBSyr5mRrDjPO4ChBDYbrc2rZ620w752wXYpLLT9uPHD7x69QqfPn06e+/79+949eoVPn/+fPGz6/X67Eebxcw0TUjT9GxenaYJQggcDgdEUYQsy+7euL7vb2YNMxXcGvFFURwtDH+rALdtCynlxSB9/foVDw8PePPmDVzXRZqmWK/X8H0fX758wcPDA96/f391JJ/uk7MsQxiGAADP87DZbI7eNzewaRqbUu9d/60Aj+MIIYQNohCPW7DtdosgCOB5HoqiQBRFcF3XTgm/VYDN3HerxXGMaZqwZPaXt5qU8qhIEIahXUyZQC6vZRlgpRTiOP5TAd5sNvB9H1prmCmo73tM0wQppZ0CtNYIgsB2uLZt0fc9VqsVpJRo2xZ1XQPAywuwWexca67rngXXiOP47mfNXGzSb9M02G63kFJinuejG2MC33UdNpsNoii6e+NM4C7tvZVSdj6Oosh2GPP9y/k/jmMopez/67qGlBJhGNptl+M4jud5SNMUvu8jz/PnH+BxHK9Wr4IgwG63Q9u2+PDhA969e2fbp0+f0LbtzSAvR6g5dp5nJEmC1Wp1VDlq2xZhGNoUvtvtbu59TVnT87yjAFxiOk5d19Ba262Zef9wOEBKaevr5phltjkcDnZ0x3GM9XqNeZ5RFAV833++AXYcxxmG4exhQpqm0FoDANq2xR9//IGHhwfb3r59a0fypRX4tX2r1vooPW42G5vOkyS5Wefd7XZnU4C50bd+n1LKpmqzoOy6DtM02Tp7lmU225hKljnver22Hc+cEwCCIDjaPz9rZrNvbl7XdWcp+ePHj3j9+jW+fft29t6yg9yrTpkSoOM8pu7l/2+Z5/moSPGUz5jvMMGa59mmc601hmE46yDL45fH3fodL8Ky0DEMw8V59xpTtL+1ZaF/2TLAJmU9hdnf3gswADv6liNqmZbnebbvjeMIM2qXI2WaJmitobXGtWPMucx3XXsAorVG3/cYx9Gm4Hme7Wr79LqW1z6O49XzPkunpcokSbDf72GeoJy25ROVewEehgG+78OsVuM4htbalinNcab4YLY/YRgijmO4rmsXQWEYoqoqNE1jV7rmGPM8uaoq+L6PJEns9HGais1cG8ex3QqWZYnlStkUW5RScF0Xq9XK/htFETzPe1JB5ll4yp74XnNd9+KixwTDlAbNaLsXYHOuqqoQBMHFAJtz7XY7u7XyPM+ufM3CanldpsCzHIHzPENKaVf/ZmvXdR2UUjaQpgBizvOst0lL0zRhvV7bHh3H8dnq+nQVuzw2TdOrT4Qc53E7kue5Pe8wDHdHsHm9aRq7HVkG2HVde0xVVQjDEFpru45wnP8XQ5YBruv6bHtjArpcUEkpcTgcbK3bcR4ffpht3ul1vjjjOOLSHwK4rmtHyFMMw4CmadB1nR155jGg7/to2xZd19m9958JsOM8Fi6yLMMwDPbJldk7V1WFaZpsem3b1maVMAyxXq8xDAN2u53NSL9tgB3nMXUtCxqe590cqZcMwwDzJztKKZRlaRc1+/0eSimkaYqyLKG1xjRNR3Nb3/f2BhdFga7r0Pf9UT276zq7vzZPrszDexPgqqpsdWscR3uMUgpmwWeu02QSc41mfm/b1j6SPL3OF0trDfMnNy9h5TjPs+1AZVk+/2oT/RwTVM/zEEUR9+ZERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERE/wn/AxHhdohXJT+qAAAAAElFTkSuQmCC") 50% 50% no-repeat;
+}
+.com-floor .left-img .cover {
+    position: absolute;
+    width: 190px;
+    height: 90px;
+    left: 0;
+    bottom: 0;
+    opacity: .6;
+
+}
+.com-floor .left-img p.img-name {
+    position: absolute;
+    top: 285px;
+    left: 14px;
+    width: 160px;
+    height: 30px;
+    overflow: hidden;
+    color: #FFF;
+    font: bold 20px/30px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+}
+.com-floor .left-img p.img-desc {
+    position: absolute;
+    top: 315px;
+    left: 14px;
+    color: #FFF;
+    width: 160px;
+    height: 22px;
+    overflow: hidden;
+    font: 12px/22px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+}
+.com-floor .left-img a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: url(https://res.suning.cn/public/v3/images/blank.gif);
+}
+.com-floor .img-list {
+    position: relative;
+    float: left;
+    width: 400px;
+    height: 360px;
+    overflow: hidden;
+}
+.com-floor .img-list li {
+    position: relative;
+
+    float: left;
+    width: 199px;
+    height: 179px;
+    border-width: 0 0 1px 1px;
+    border-color: #EEE;
+    border-style: solid;
+    overflow: hidden;
+}
+.com-floor .img-list li a {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    cursor: pointer;
+}
+.com-floor .img-list li p.img-name {
+    width: 180px;
+    height: 24px;
+    overflow: hidden;
+    text-align: center;
+    margin: 14px auto 0;
+    font: 16px/24px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+    color: #333;
+}
+.com-floor .img-list li p.img-desc {
+    width: 180px;
+    height: 20px;
+    overflow: hidden;
+    text-align: center;
+    margin: 0 auto;
+    font: 12px/20px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+}
+.com-floor .img-list li img {
+    display: block;
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+    transition: transform .5s;
+}
+.com-floor .bottom-list {
+    position: relative;
+    width: 100%;
+    height: 109px;
+    overflow: hidden;
+    border-bottom: 1px solid #EEE;
+}
+.com-floor .bottom-list ul {
+    width: 593px;
+}
+.com-floor .bottom-list ul li.first {
+    width: 189px;
+}
+.com-floor .bottom-list ul li {
+    display: none;
+    position: relative;
+    float: left;
+    width: 200px;
+    height: 109px;
+    border-right: 1px solid #EEE;
+}
+.com-floor .bottom-list ul li a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    text-decoration: none;
+    cursor: pointer;
+}
+.com-floor .bottom-list ul li p.img-name {
+    width: 70px;
+    color: #333;
+    height: 24px;
+    margin-top: 27px;
+    padding-left: 20px;
+    overflow: hidden;
+    font: 14px/24px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+}
+.com-floor .bottom-list ul li p.img-desc {
+    width: 72px;
+    height: 22px;
+    padding-left: 20px;
+    overflow: hidden;
+    font: 12px/22px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+}
+.com-floor .bottom-list ul li img {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    display: block;
+    width: 80px;
+    height: 80px;
+    transition: transform .5s;
+}
+.com-floor .brand-logo {
+    width: 100%;
+    height: 40px;
+    overflow: hidden;
+}
+
+.com-floor .brand-logo ul li {
+    float: left;
+    width: 80px;
+    height: 30px;
+    margin: 9px 9px 0 10px;
+}
+
+
+.com-floor .brand-logo ul li img {
+    display: block;
+    width: 80px;
+    height: 30px;
+}
+.floorTwo .right-floor ul.img-list {
+    width: 200px;
+    overflow: hidden;
+}
+.secondtj-wrapper .phb-module .content a.btn {
+    position: absolute;
+    display: none;
+    width: 30px;
+    height: 64px;
+    top: 146px;
+    background: url("http://res.suning.cn/project/cmsWeb/suning/homepage/v6/css/images/index.png?v=2018101801");
+    
+}
+.secondtj-wrapper .phb-module .content a.btn-left {
+    left: 0;
+    background-position: -82px -145px;
+}
+.secondtj-wrapper .phb-module .content a.btn-right {
+    right: 0;
+    background-position: -120px -145px;
+}
+.secondtj-wrapper .phb-module .content .banner-nav-wrapper {
+    position: absolute;
+    bottom: -7px;
+    left: 0;
+    width: 369px;
+    height: 8px;
+    text-align: center;
+    font-size: 0;
+}
+.secondtj-wrapper .phb-module .content .banner-nav-wrapper .banner-pager {
+    position: relative;
+    display: inline-block;
+    padding: 0 10px 0 0;
+    height: 8px;
+}
+
+.secondtj-wrapper .phb-module .content .banner-nav-wrapper .banner-pager a {
+    position: relative;
+    display: inline-block;
+    margin-left: 10px;
+    background: #d8d8d8;
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+}
+.secondtj-wrapper .phb-module .content .banner-nav-wrapper .banner-pager a.current {
+    background: #c72c2c;
+}
+.qdApg-floor {
+    width: 990px;
+    margin: 20px auto 0;
+}
+.content-module {
+    float: left;
+    width: 590px;
+    height: 384px;
+    background: #FFF;
+    box-shadow: 0 0 8px #eee;
+}
+.qdApg-floor .content-module {
+    height: 385px;
+}
+.pg-module {
+    width: 390px;
+}
+.ml10 {
+    margin-left: 10px !important;
+}
+.root1200 .pg-module {
+    width: 590px;
+}
+.content-module .title {
+    width: 100%;
+    height: 45px;
+    color: #FFF;
+}
+.qdApg-floor .content-module .title {
+    height: 46px;
+    background: #ffaa01;
+}
+.qd-module ul {
+    margin-left: 20px;
+}
+.content-module .title h5 {
+    float: left;
+    padding-left: 15px;
+    font: bold 18px/45px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+}
+.content-module .title a {
+    float: right;
+    margin: 15px 10px 0 0;
+    color: #FFF;
+    font: 12px/16px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+    cursor: pointer;
+    text-decoration: none;
+}
+.content-module .title a span {
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: none;
+}
+.qdApg-floor .content-module .title a i {
+    background-position: -73px -37px;
+}
+.content-module .title a i {
+    display: inline-block;
+    vertical-align: middle;
+    width: 6px;
+    height: 9px;
+    margin-left: 8px;
+    background: url("http://res.suning.cn/project/cmsWeb/suning/homepage/v6/css/images/index.png?v=2018101801") -73px -37px;
+}
+.qd-module li.item {
+    float: left;
+    width: 270px;
+    height: 134px;
+    margin: 18px 15px 6px 0;
+}
+.qd-module li.item a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    cursor: pointer;
+}
+.qd-module li.item p.name {
+    width: 240px;
+    height: 18px;
+    overflow: hidden;
+    font: 12px/18px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+}
+.qd-module li.item p.infor {
+    width: 240px;
+    height: 16px;
+    overflow: hidden;
+    margin-top: 6px;
+    color: #999;
+    font: 12px/16px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+}
+.qd-module li.item p.infor span {
+    display: inline-block;
+    padding: 0 5px;
+    color: #FFF;
+    height: 16px;
+    margin-right: 6px;
+    background: #fe9b00;
+}
+.qd-module li.item img {
+    float: left;
+    width: 85px;
+    height: 85px;
+    margin: 10px 5px 0 0;
+    transition: transform .5s;
+}
+.root1200 .pg-module {
+    width: 590px;
+}
+.pg-module .list-wrapper {
+    position: relative;
+    width: 100%;
+    height: 339px;
+    overflow: hidden;
+}
+.pg-module .list-wrapper .list {
+    position: relative;
+    width: 530px;
+    height: 300px;
+    margin: 30px 0 0 30px;
+    overflow: hidden;
+}
+
+.pg-module a.btn {
+    position: absolute;
+    display: none;
+    width: 30px;
+    height: 64px;
+    top: 110px;
+    background: url("http://res.suning.cn/project/cmsWeb/suning/homepage/v6/css/images/index.png?v=2018101801");
+    
+}
+.pg-module a.btn-left {
+    left: 1px;
+    background-position: 0 -20px;
+}
+.pg-module .list-wrapper .list ul {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 4000px;
+    height: 300px;
+}
+.pg-module .list-wrapper .list ul li {
+    position: relative;
+    float: left;
+    width: 160px;
+    margin-right: 25px;
+}
+.pg-module .list-wrapper .list ul li img {
+    display: block;
+    width: 160px;
+    height: 160px;
+}
+.pg-module .list-wrapper .code-icon {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 53px;
+    top: 45px;
+    background: url("http://res.suning.cn/project/cmsWeb/suning/homepage/v6/css/images/index.png?v=2018101801") -240px -86px;
+}
+.pg-module .list-wrapper .list ul li img.code {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 160px;
+    height: 160px;
+    opacity: .8;
+
+    background: 0;
+}
+.pg-module .list-wrapper .list ul p.name {
+    width: 100%;
+    height: 36px;
+    margin-top: 18px;
+    overflow: hidden;
+    font: 12px/18px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+}
+.pg-module .list-wrapper .list ul p.pg-price {
+    width: 100%;
+    height: 21px;
+    margin-top: 10px;
+    font: 12px/21px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+    text-align: center;
+    color: #FFF;
+    background: #F90;
+}
+.pg-module .list-wrapper .list ul p.pg-price i {
+    padding: 0 3px;
+}
+.pg-module .list-wrapper .list ul p.sn-price {
+    float: left;
+    color: #999;
+    margin-top: 10px;
+    font: 12px/18px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+}
+.pg-module .list-wrapper .list ul p.pg-number {
+    float: right;
+    color: #999;
+    margin-top: 10px;
+    font: 12px/18px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+}
+.pg-module a.btn-left:hover {
+    
+    background-position: 0 -145px;
+}
+.pg-module a.btn-right {
+    right: 1px;
+    background-position: -37px -20px;
+}
+.reco-floor .title {
+    width: 100%;
+    height: 22px;
+}
+.reco-floor .title span {
+    float: left;
+    width: 3px;
+    height: 20px;
+    background: #fe9901;
+}
+.reco-floor .title h5 {
+    float: left;
+    margin-left: 12px;
+    font: bold 18px/20px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+}
+.reco-floor .title p {
+    float: left;
+    color: #999;
+    margin: 5px 0 0 20px;
+    font: 12px/16px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+}
+.reco-floor ul {
+    width: 991px;
+    margin-top: 8px;
+    padding: 1px 0;
+    background: #EEE;
+}
+.reco-floor p.end {
+    position: relative;
+    width: 112px;
+    height: 22px;
+    text-align: center;
+    color: #CCC;
+    margin: 15px auto;
+    font: 18px/22px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+}
+.reco-floor p.end span {
+    position: absolute;
+    top: 11px;
+    width: 97px;
+    height: 1px;
+    background: #CCC;
+}
+.reco-floor p.end span.line-left {
+    left: -97px;
+}
+.reco-floor p.end span.line-right {
+    right: -97px;
+}
+
+.root1200 .reco-floor ul {
+    width: 1191px;
+}
+.reco-floor ul li {
+    position: relative;
+    float: left;
+    width: 197px;
+    height: 300px;
+    margin: 1px 0 0 1px;
+    background: #FFF;
+    overflow: hidden;
+}
+.root1200 .reco-floor ul li {
+    width: 237px;
+    height: 340px;
+}
+.reco-floor ul li a.pro-link {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    text-decoration: none;
+    cursor: pointer;
+}
+.reco-floor ul li .same {
+    position: absolute;
+    right: 22px;
+    width: 44px;
+    height: 20px;
+    border: 1px solid #f60;
+    border-radius: 4px;
+    top: 237px;
+    text-align: center;
+    color: #F60;
+    line-height: 20px;
+}
+.root1200 .reco-floor ul li .same {
+    top: 280px;
+}
+.reco-floor ul li img {
+    display: block;
+    width: 180px;
+    height: 180px;
+    margin: 0 auto 0;
+    transition: transform .5s;
+}
+.root1200 .reco-floor ul li img {
+    width: 200px;
+    height: 200px;
+    margin: 20px auto 0;
+}
+.reco-floor ul li p.title {
+    width: 153px;
+    height: 40px;
+    margin: 15px auto 5px;
+    overflow: hidden;
+    font: 12px/20px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+    word-break: break-all;
+}
+.root1200 .reco-floor ul li p.title {
+    width: 193px;
+}
+.reco-floor ul li p.price {
+    margin-left: 20px;
+    color: #F60;
+    font: bold 16px/18px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+}
+.reco-floor ul li p.title i.zyIcon {
+    float: left;
+    width: 35px;
+    height: 18px;
+    margin: 2px 5px 0 0;
+    background: url("http://res.suning.cn/project/cmsWeb/suning/homepage/v6/css/images/index.png?v=2018101801") -561px -270px;
+}
+.reco-floor ul li p.price i {
+    font-size: 10px;
+}
+.reco-floor ul li p.cxIcon {
+    position: relative;
+    width: 153px;
+    height: 16px;
+    margin: 7px auto 0;
+    overflow: hidden;
+}
+.root1200 .reco-floor ul li p.cxIcon {
+    width: 200px;
+}
+.reco-floor ul li p.cxIcon span {
+    position: relative;
+    zoom: 1;
+    display: block;
+    float: left;
+    padding: 0 2px;
+    height: 16px;
+    *min-width: 28px;
+    color: #FFF;
+    font: 12px/16px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+    background: #F40;
+    margin-right: 10px;
+    border-radius: 3px;
+    white-space: nowrap;
+}
+.ng-footer {
+    margin-top: 10px;
+}
+.ng-footer .ng-ser-box {
+    width: 100%;
+    background: #f5f5f5;
+    border-top: 1px solid #e7e7e7;
+    min-width: 990px;
+}
+.ng-s-footer {
+    width: 100%;
+    min-width: 990px;
+    padding-top: 15px;
+    text-align: center;
+}
+.ng-footer .ng-ser-box-con {
+    width: 990px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.ng-footer .ng-promise {
+    width: 1050px;
+    padding: 12px 0;
+    height: 73px;
+    border-bottom: 1px solid #eaeaea;
+}
+.ng-footer .ng-promise dl {
+    float: left;
+    width: 210px;
+    overflow: hidden;
+}
+.ng-footer .ng-promise dt {
+    float: left;
+    width: 48px;
+    height: 48px;
+    margin-right: 8px;
+}
+.ng-footer .ng-promise dd {
+    float: left;
+    height: 48px;
+    width: 140px;
+}
+.ng-footer .ng-promise dd p strong {
+    font-weight: 700;
+    color: #222;
+    font-size: 14px;
+}
+.ng-footer .ng-help-box {
+    float: left;
+    width: 850px;
+    height: 180px;
+}
+.ng-footer .ng-help-box dl {
+    float: left;
+    height: 160px;
+    width: 170px;
+}
+.ng-footer .ng-help-box dt {
+    width: 100%;
+    line-height: 40px;
+    font-weight: 700;
+    color: #545454;
+    height: 35px;
+    font-size: 14px;
+    overflow: hidden;
+}
+.ng-footer .ng-help-box dd {
+    width: 100%;
+    line-height: 22px;
+}
+.ng-footer .ng-help-box dd a {
+    color: #545454;
+}
+.ng-footer .ng-app-down {
+    float: left;
+    height: 180px;
+    width: 90px;
+}
+.ng-footer .ng-app-down p, .ng-footer .ng-hot-line p {
+    width: 100%;
+    line-height: 40px;
+    font-weight: 700;
+    color: #545454;
+    height: 35px;
+    font-size: 14px;
+    margin-bottom: 5px;
+    overflow: hidden;
+}
+.clear {
+    overflow: hidden;
+    font-size: 0;
+}
+.ng-s-footer {
+    width: 100%;
+    min-width: 990px;
+    padding-top: 15px;
+    text-align: center;
+}
+.ng-s-footer .ng-s-f-con {
+    width: 990px;
+    min-width: 990px;
+    margin: 0 auto;
+}
+.ng-s-footer .ng-s-f-con {
+    height: 160px;
+}
+.ng-s-footer p.ng-copyright, .ng-s-footer p.ng-url-list {
+    line-height: 25px;
+    height: 25px;
+}
+.ng-s-footer p.ng-url-list span {
+    color: #888;
+    padding: 0 8px;
+}
+
+
