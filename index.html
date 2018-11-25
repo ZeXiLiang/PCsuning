@@ -2677,7 +2677,7 @@ var a = function() {
 					timeout: 10000,
 					jsonpCallback: "recommand",
 					success: function(g) {
-                        console.log("shuchujsonp",g);
+                       
 						if (g && g.data && g.data.sugGoods && g.data.sugGoods[0]) {
 							if (g.data.sugGoods[0]["resCode"] == "01" || g.data.sugGoods[0]["resCode"] == "03") {
 								if (g.data.sugGoods[0]["skus"].length < 15) {
@@ -2694,9 +2694,8 @@ var a = function() {
 						lazyelem.detect()
 					},
 					error: function() {
-					console.log("1woshishab");
-                        
-                        a();
+				
+                      
                         
 					}
 				})
@@ -2770,43 +2769,7 @@ var a = function() {
 			Util.baoguangFun("baoguang_recscnxhB_1")
 		}
 
-		function a() {
-			var e = $("body").attr("data-pageCode"),
-				f = $(".reco-floor").attr("data-fullId"),
-				g;
-            
-			index.getCMSHtml(e, f, function(i) {
-				var h = new Date().getTime();
-				g = i.data;
-
-				$(".reco-floor ul").html(g);
-				if ($(".reco-floor ul li").size() < 15) {
-					$(".reco-floor").hide()
-				}
-				index.getwebp(".reco-floor ul");
-				lazyelem.listen($(".reco-floor ul").find("img[lazy-src]"), "img");
-				lazyelem.listen($(".reco-floor ul").find("li[data-sku]"), "fn", function(j) {
-					index.priceDOM.push(j);
-					if (index.getPriceFlag) {
-						return
-					}
-					index.getPriceFlag = true;
-				
-				});
-				lazyelem.listen($(".reco-floor ul").find("[cms-name]"), "fn", function(j) {
-					index.cmsBgDom.push(j);
-					if (index.cmsBgFlag) {
-						return
-					}
-					index.cmsBgFlag = true;
-					setTimeout(function() {
-						index.cmsBgFunc(index.cmsBgDom)
-					}, 100)
-				})
-			}, function() {
-				$(".reco-floor").hide()
-			})
-		}
+		
 	
 	})
 };
