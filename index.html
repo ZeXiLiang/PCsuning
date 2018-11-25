@@ -2677,7 +2677,7 @@ var a = function() {
 					timeout: 10000,
 					jsonpCallback: "recommand",
 					success: function(g) {
-                        
+                        console.log("shuchujsonp",g);
 						if (g && g.data && g.data.sugGoods && g.data.sugGoods[0]) {
 							if (g.data.sugGoods[0]["resCode"] == "01" || g.data.sugGoods[0]["resCode"] == "03") {
 								if (g.data.sugGoods[0]["skus"].length < 15) {
