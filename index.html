@@ -2860,7 +2860,7 @@ index.qingdan = function() {
 				}
 				h += '<li class="item"><a id="' + e + '"><p class="name">' + k.title + '</p><p class="infor"><span>' + o[q].labelName + "</span><i>" + k.desc + "</i></p>";
 				for (var g = 0; g < f; g++) {
-					r += '<img lazy-src="http://image' + Util.getRandomNum() + ".suning.cn/uimg/b2c/qrqm/" + p["vendor" + (g + 1)] + p["pro" + (g + 1)] + "_200x200.jpg?ver=" + p["ver" + (g + 1)] + '" src="https://res.suning.cn/public/v3/images/blank.gif">'
+					r += '<img lazy-src="https://image' + Util.getRandomNum() + ".suning.cn/uimg/b2c/qrqm/" + p["vendor" + (g + 1)] + p["pro" + (g + 1)] + "_200x200.jpg?ver=" + p["ver" + (g + 1)] + '" src="https://res.suning.cn/public/v3/images/blank.gif">'
 				}
 				h += r + "</a></li>"
 			}
@@ -3118,7 +3118,7 @@ function a() {
 						var h = "baoguang_recpzttj_1-" + (m + 1) + "_" + q.shopId + "_" + q.sugGoodsCode + "_" + l[m].handwork;
 						var p = q.productType == 3 || q.productType == 5 ? q.supplierCode : q.shopId,
 							o = n.productType == 3 || n.productType == 5 ? n.supplierCode : n.shopId;
-						j += '<li><a href="//cuxiao.suning.com/tesetuijian.html?mainCode=' + l[m].mainCode + "&catalogueId=" + l[m].labelCode + "&shopCode=" + q.shopId + "&sugGoodsCode=" + q.sugGoodsCode + "&supplierCode=" + q.supplierCode + "&productType=" + q.productType + "&pictureUrl=" + encodeURIComponent(q.pictureUrl) + '" target="_blank" name="' + k + '" id="' + h + '"><p class="name">' + l[m].labelName + '</p><div class="clear"></div><p class="desc">' + l[m].labelDesc + '</p><div class="clear"></div><img class="first-img" src="http:' + sn.imgHost + "/uimg/b2c/qrqm/" + p + q.sugGoodsCode + "_200x200.jpg?ver=" + q.picVersion + '" alt=""><img src="http:' + sn.imgHost + "/uimg/b2c/qrqm/" + o + n.sugGoodsCode + "_200x200.jpg?ver=" + n.picVersion + '" alt=""></a></li>'
+						j += '<li><a href="//cuxiao.suning.com/tesetuijian.html?mainCode=' + l[m].mainCode + "&catalogueId=" + l[m].labelCode + "&shopCode=" + q.shopId + "&sugGoodsCode=" + q.sugGoodsCode + "&supplierCode=" + q.supplierCode + "&productType=" + q.productType + "&pictureUrl=" + encodeURIComponent(q.pictureUrl) + '" target="_blank" name="' + k + '" id="' + h + '"><p class="name">' + l[m].labelName + '</p><div class="clear"></div><p class="desc">' + l[m].labelDesc + '</p><div class="clear"></div><img class="first-img" src="https:' + sn.imgHost + "/uimg/b2c/qrqm/" + p + q.sugGoodsCode + "_200x200.jpg?ver=" + q.picVersion + '" alt=""><img src="https:' + sn.imgHost + "/uimg/b2c/qrqm/" + o + n.sugGoodsCode + "_200x200.jpg?ver=" + n.picVersion + '" alt=""></a></li>'
 					}
                     j += "</ul>"
 					$(".tj-module .content").html(j);
